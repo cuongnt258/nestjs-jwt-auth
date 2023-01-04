@@ -5,7 +5,7 @@ import { AxiosError } from 'axios';
 import { Model } from 'mongoose';
 import { catchError, firstValueFrom } from 'rxjs';
 import { User } from './user.model';
-import * as FormData from 'form-data';
+import FormData from 'form-data';
 
 @Injectable()
 export class UsersService {
